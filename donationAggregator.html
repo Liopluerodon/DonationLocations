@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Drives List</title>
+	<link rel="icon" type="image/png" href="driveBox.png">
+</head>
+
+<body>
+	<div id="dayButtonRow">
+		<button id="mon" onclick="hideMon()">MON</button>
+		<button id="tue" onclick="hideTue()">TUES</button>
+		<button id="wed" onclick="hideWed()">WED</button>
+		<button id="thu" onclick="hideThu()">THURS</button>
+		<button id="fri" onclick="hideFri()">FRI</button>
+		<button id="sat" onclick="hideSat()">SAT</button>
+		<button id="sun" onclick="hideSun()">SUN</button>
+		<button id="show" onclick="showAll()">All</button>
+	</div>
+
+	<div id="tagButtonRow">
+		<button id="food" onclick="hideFood()">Food</button>
+		<button id="toil" onclick="hideToil()">Toiletries</button>
+		<button id="baby" onclick="hideBaby()">Baby Products</button>
+		<button id="clot" onclick="hideClot()">Clothing</button>
+		<button id="scho" onclick="hideScho()">School Supplies</button>
+	</div>
+
+
+	<div id="cardHolder"></div>
+
+	<script src="script.js">
+	</script>
+</body>
+</html>
